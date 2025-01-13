@@ -21,6 +21,7 @@ export default defineConfig({
    * @doc https://umijs.org/docs/api/config#hash
    */
   hash: true,
+  mfsu: false,
 
   publicPath: PUBLIC_PATH,
 
@@ -162,7 +163,7 @@ export default defineConfig({
    * @description 使用 mako 极速研发
    * @doc https://umijs.org/docs/api/config#mako
    */
-  mako: {},
+  // mako: {},
   esbuildMinifyIIFE: true,
   requestRecord: {},
 });
